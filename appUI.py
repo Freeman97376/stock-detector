@@ -13,7 +13,6 @@ class StockApp(QMainWindow):
         super().__init__()
         self.setWindowTitle("Stock Trader")
         self.setMinimumSize(400, 300)
-       
         # 1. Initialize the Data Provider
         # We create the "worker" here so it's ready to use later
         self.provider = YFinanceProvider()
